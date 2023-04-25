@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styles -->
+  <link rel="stylesheet" href="./vending-page.css">
+  <link rel="stylesheet" href="./vending-page_adaptive.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/7e24f5d6ac.js" crossorigin="anonymous"></script>
+  <title>Miilk</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar__wrap">
+        <div class="hamburger" id="hamburger-1">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="logo">
+          <a href="/main_page.html" style="cursor: pointer;"><img src="./vendingpage-images/navbar/Logo.png" class="logo_img"></a>
+        </div>
+        <div class="menu" id="menu">
+          <li class="menu__list" id="menu__list1" >Каталог товаров</li>
+          <li class="menu__list" id="menu__list2" >Блог</li>
+          <li class="menu__list" id="menu__list3" >Контакты</li>
+        </div>
+        <div class="navbar__icons">
+          <div class="search-block">
+            <div class="search-content">
+              <div class="constrain">
+                <input class="input-grey-rounded" type="text" placeholder="Поиск по товарам">
+                <div class="close-search" style="display: none;">Отменить</div>
+              </div>
+            </div>
+            <img class="nav-icon3" src="./vendingpage-images/navbar/nav-icon-3.png">
+          </div>
+          <img class="nav-icon1" src="./vendingpage-images/navbar/nav-icon-1.png" alt="">
+          <img class="nav-icon2" src="./vendingpage-images/navbar/nav-icon-2.png" alt="">
+        </div>
+      </div> 
+      <div class="menu-top" style="display: none;">
+        <ul class="menu-list-top">
+            <li class="top-list" id="top__list1" href="#">Каталог товаров</li>
+            <li class="top-list" id="top__list2" href="#">Блог</li>
+            <li class="top-list" id="top__list3" href="#">Контакты</li>
+        </ul>
+        <div class="items">
+          <img class="nav-icon1" src="./vendingpage-images/navbar/nav-icon-1.png" alt="">
+          <img class="nav-icon2" src="./vendingpage-images/navbar/nav-icon-2.png" alt="">
+        </div>
+        <div class="menu-contacts">
+          <a href="">Import@kldrefine.com</a>
+          <div class="menu-contacts_icons">
+            <div class="menu-contacts_icon1">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="menu-contacts_icon2">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </nav>
+  <main class="main">
+    <section class="background">
+      <img src="./vendingpage-images/background/vector1.png"  class="vector1">
+      <img src="./vendingpage-images/background/bgicon-2.png" class="bgicon-2">
+      <img src="./vendingpage-images/background/vector4.png"  class="vector4">
+    </section>
+    <section class="vending-selection">
+      <div class="container">
+        <div class="page-navigation_name">
+          <p>Главная</p>
+          <img src="./vendingpage-images/vending-selection/Ellipse.png" class="elips">
+          <p>Каталог товаров</p>
+          <img src="./vendingpage-images/vending-selection/Ellipse.png" class="elips">
+          <p>Продукция для вендинга</p>
+        </div>
+        <h1 class="page-name">Продукция для вендинга</h1>
+        <div class="vending-selection_cards">
+          <div class="vending-selection_card">
+            <img src="./vendingpage-images/vending-selection/card-img-1.png" class="card-img">
+            <h4>Гранулированный кофе</h4>
+          </div>
+          <div class="vending-selection_card">
+            <img src="./vendingpage-images/vending-selection/card-img-1.png" class="card-img">
+            <h4>Гранулированный цикорий</h4>
+          </div>
+          <div class="vending-selection_card">
+            <img src="./vendingpage-images/vending-selection/card-img-1.png" class="card-img">
+            <h4>Зерновой кофе</h4>
+          </div>
+          <div class="vending-selection_card-none">  </div>
+          <div class="vending-selection_card">
+            <img src="./vendingpage-images/vending-selection/card-img-1.png" class="card-img">
+            <h4>Гранулированный какао</h4>
+          </div>
+          <div class="vending-selection_card">
+            <img src="./vendingpage-images/vending-selection/card-img-1.png" class="card-img-2">
+            <h4>Гранулированные кофейные напитки</h4>
+          </div>
+          <div class="vending-selection_card">
+            <img src="./vendingpage-images/vending-selection/card-img-1.png" class="card-img">
+            <h4>Кофе порошкообразный</h4>
+          </div>
+          <div class="vending-selection_card">
+            <img src="./vendingpage-images/vending-selection/card-img-1.png" class="card-img-2">
+            <h4>Сухое молоко гранулированное</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vending-content">
+      <div class="container">
+        <div class="filter">
+          <a>Сортировка</a>
+        </div>
+        <div class="select-filter">
+          <div class="select-filter_header">
+            <span class="select-filter__current">По убыванию цены</span>
+            <div class="select-filter__icon"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+          <div class="select-filter__body">
+            <div class="select-filter__item">По возрастанию цены</div>
+            <div class="select-filter__item">По убыванию цены</div>
+            <div class="select-filter__item">По рейтингу</div>
+          </div>
+        </div>
+        <div class="vending-list"></div>
+        <button class="vending-btn_more">Показать еще</button>
+      </div>
+    </section>
+    <section class="subscribe-block">
+      <img src="./vendingpage-images/background/vector5.png"  class="vector5">
+      <img src="./vendingpage-images/background/vector6.png"  class="vector6">
+      <img src="./vendingpage-images/background/Vector7.png"  class="vector7">
+      <img src="./vendingpage-images/background/Vector8.png"  class="vector8">
+      <div class="container">
+        <div class="subscribe-content">
+          <div class="subscribe-header">
+            <h2>Подписка на новости и рассылку</h2>
+            <p>Подпишитесь на нашу рассылку прямо сейчас и будьте в курсе новых поставок, скидок и эксклюзивных предложений.</p>
+          </div>
+          <div class="subscribe-button">
+            <div class="content">
+              <form class="subscription">
+                <input class="add-email" type="email" placeholder="Ваш email">
+                <button class="submit-email" type="button">
+                  <span class="before-submit">Подписаться</span>
+                  <span class="after-submit">Спасибо за подписку</span>
+                 </button>
+              </form>
+            </div>
+            <div class="subscribe-button2" style="display: none;">
+              <form class="subscribe">
+                <input class="email" type="email" placeholder="Ваш email">
+                <button class="sub-email" type="button">Подписаться</button>
+              </form>
+            </div>
+            <p>Нажимая на кнопку “Подписаться”, вы принимаете правила <a href="">пользовательского соглашения</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="logo">
+          <a href="/main_page.html"><img src="./vendingpage-images/navbar/Logo.png" class="logo_img">
+        </div></a>
+        <div class="menu" id="menu">
+          <a class="menu__list" id="menu__list1" >Каталог товаров</a>
+          <a class="menu__list" id="menu__list2" >Блог</a>
+          <a class="menu__list" id="menu__list3" >Контакты</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- modal-window -->
+  <div class="modal-window"></div>
+  <!-- js -->
+  <script src="./vending-load.js"></script>
+  <script src="./vending-select.js"></script>
+  <script src="/main-page-menu.js"></script>
+  <script src=../coffe-catalog/select-filter.js></script>
+  <script src="/search.js"></script>
+  <script src="/subscript.js"></script>
+</body>
+</html>

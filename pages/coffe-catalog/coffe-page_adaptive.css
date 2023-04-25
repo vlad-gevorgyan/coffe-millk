@@ -1,0 +1,31 @@
+@media screen and (max-width: 1350px) {
+
+
+  :root {
+    --margin: 0.593vw;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    line-height: 1;  
+  }
+  
+  /* Layout */
+  
+  .container {
+    max-width: 87.4vw;
+    height: 100%;
+    margin: auto;
+  }
+  
+  
+  .active_display {
+    display: block !important;
+  }
+  
+  .not-active_display {
+    display: none !important;
+  }
+
+}
